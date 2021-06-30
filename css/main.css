@@ -19,15 +19,17 @@ img.droidhead {
     right: 0.5rem;
 }
 
-div.intro {
+.card {
     position: absolute;
-    bottom: 0;
-    left: 1em;
+    bottom: 2rem;
+    left: 2rem;
+    padding: 2rem;
     font-size: 2rem;
-}
-
-.intro>h1,h2{
-    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    border-radius: 4px;
+    transition: 0.4s;
+    max-width: 90%;
 }
 
 section {
