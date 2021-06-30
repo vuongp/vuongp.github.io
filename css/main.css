@@ -10,6 +10,13 @@ header {
     height: 100%;
 }
 
+img.droidhead {
+    height: 20%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
 div.intro {
     position: absolute;
     bottom: 0;
