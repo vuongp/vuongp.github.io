@@ -32,6 +32,11 @@ img.droidhead {
     max-width: 90%;
 }
 
+h1,h2 {
+    margin: 0;
+    color: #4f4f4f;
+}
+
 section {
     min-height: 100%;
     min-width: 100%;
