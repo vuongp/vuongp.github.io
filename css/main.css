@@ -33,11 +33,11 @@ h2.time {
 }
 
 .intro-card {
-    height: 150px;
+    min-height: 150px;
 }
 
 .profile-picture {
-    height: 150px;
+    max-width: 150px;
     float: right;
     border-radius: 4px;
 }
@@ -54,6 +54,19 @@ h2.time {
         margin: 0 auto 0;
         bottom: 0;
         right: 0;
+    }
+
+    .profile-picture{
+        max-width: 200px;
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+
+    .intro-card {
+        text-align: center;
     }
 }
 
