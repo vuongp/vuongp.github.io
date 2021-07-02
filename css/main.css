@@ -7,24 +7,39 @@ html, body {
     background-color: cornflowerblue;
 }
 
+h2.time {
+    float: right;
+    opacity: 60%;
+}
+
 .droidhead {
-    max-width: 50%;
-    min-width: 30%;
+    max-width: 40%;
+    min-width: 20%;
     position: fixed;
     bottom: 0;
     right: 0.5rem;
 }
 
 .card {
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     border-radius: 4px;
     transition: 0.4s;
-    max-width: 600px;
-    margin: 24px auto 24px;
     position: relative;
     z-index: 1;
+    max-width: 600px;
+    margin: 24px auto 24px;
+}
+
+.intro-card {
+    height: 150px;
+}
+
+.profile-picture {
+    height: 150px;
+    float: right;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -42,7 +57,7 @@ html, body {
     }
 }
 
-h1,h2 {
+h1, h2 {
     margin: 0;
     color: #4f4f4f;
 }
