@@ -9,7 +9,7 @@ html, body {
 
 h2.time {
     float: right;
-    opacity: 60%;
+    opacity: 55%;
 }
 
 .droidhead {
@@ -67,6 +67,12 @@ h2.time {
 
     .intro-card {
         text-align: center;
+    }
+
+    h2.time {
+        float: none;
+        text-align: center;
+        margin-top: -1rem;
     }
 }
 
