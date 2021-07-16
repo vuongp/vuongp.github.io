@@ -59,6 +59,13 @@ a.social:hover{
     border-radius: 4px;
 }
 
+.company-logo {
+    max-width: 60%;
+    min-height: 50px;
+    max-height: 50px;
+    text-align: left;
+}
+
 @media only screen and (max-width: 700px) {
     .card {
         margin: 24px;
